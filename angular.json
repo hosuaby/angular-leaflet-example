@@ -88,6 +88,13 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "repo": "https://github.com/hosuaby/angular-leaflet-example.git",
+            "baseHref": "https://hosuaby.github.io/angular-leaflet-example/"
+          }
         }
       }
     }
